@@ -1,0 +1,103 @@
+#header-image {
+    height: auto;
+    width: 100%;
+    border-style: solid;
+    border-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+body {
+    /*background-color: #0080C6; */
+    background: rgb(0,128,198);
+    background: linear-gradient(180deg, rgba(0,128,198,1) 0%, rgba(0,34,68,1) 100%);
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+
+#navbar {
+    list-style-type: none;
+    background-color: white;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    border-style: solid;
+    border-color: white;
+    font-size: 20px;
+}
+
+#navbar a:hover{
+    color: #002244;
+}
+
+#contact {
+    float: right;
+}
+
+.nav {
+    float: left;
+}
+
+.nav-link {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: #0080C6;
+    text-decoration: none;
+}
+
+.article {
+    width: 49%;
+    background-color: white;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: white;
+}
+
+.article-left {
+    margin-right: 1%;
+}
+
+.article-right {
+    margin-left: 1%;
+    background-color: #FFC20E;
+    text-align: center;
+    color: #002244;
+}
+
+.article p {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#headline-img {
+    width: 100%
+}
+
+.article-headline {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.row-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.upcoming-game {
+    width: 99%;
+    background-color: white;
+    font-size: 50px;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-style: solid;
+    border-color: #002244;
+}
