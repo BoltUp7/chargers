@@ -1,5 +1,12 @@
+body {
+    background: rgb(0,128,198);
+    background: linear-gradient(180deg, rgba(0,128,198,1) 0%, rgba(0,34,68,1) 100%);
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
 #header-image {
-    height: auto;
+    height: auto; /* Page banner */
     width: 100%;
     border-style: solid;
     border-color: white;
@@ -8,18 +15,8 @@
     margin-right: auto;
 }
 
-
-body {
-    /*background-color: #0080C6; */
-    background: rgb(0,128,198);
-    background: linear-gradient(180deg, rgba(0,128,198,1) 0%, rgba(0,34,68,1) 100%);
-    background-attachment: fixed;
-    font-family: sans-serif;
-}
-
-
 #navbar {
-    list-style-type: none;
+    list-style-type: none; /* Navigation Bar */
     background-color: white;
     margin: auto;
     padding: 0;
@@ -30,24 +27,24 @@ body {
     font-size: 20px;
 }
 
+#navbar li {
+    float: left; /* Puts the navbar buttons in a horizontal line going from left to right */
+}
+
 #navbar a:hover{
-    color: #002244;
-}
-
-#contact {
-    float: right;
-}
-
-.nav {
-    float: left;
+    color: #002244; /* Changes the color of the navbar buttons on hover */
 }
 
 .nav-link {
-    display: block;
+    display: block; /* Adjusts the text for each navigation link */
     text-align: center;
     padding: 14px 16px;
     color: #0080C6;
     text-decoration: none;
+}
+
+#navbar #contact {
+    float: right; /* Moves the Contact button to the far right */
 }
 
 .article {
@@ -64,9 +61,17 @@ body {
 
 .article-right {
     margin-left: 1%;
-    background-color: #FFC20E;
+    /* background-color: #FFC20E; */
     text-align: center;
     color: #002244;
+}
+
+.article-right img {
+    width: 400px;
+}
+
+.article-right p {
+    font-size: 30px; 
 }
 
 .article p {
