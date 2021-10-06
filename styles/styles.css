@@ -102,7 +102,7 @@ body {
     padding-bottom: 20px;
 }
 
-#headline-img {
+.article-img {
     width: 100%
 }
 
@@ -169,4 +169,19 @@ body {
 
 .schedule-vs, .schedule-result {
     text-align: right;
+}
+
+.news-articles {
+    display: flex;
+    width: 1024px;
+    margin: auto;
+}
+
+.news-left {
+    text-align: justify;
+}
+
+.news-right {
+    float: right;
+    text-align: justify;
 }
